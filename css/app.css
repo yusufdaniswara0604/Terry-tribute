@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #03fccf;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #e7fc03;
+}
+
+footer {
+  background-color: #03fccf;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #e7fc03;
+}
+
+main {
+  display: flex;
+}
+
+article {
+  flex: 2;
+  padding: 20px;
+}
+
+aside {
+  flex: 1;
+  padding: 20px;
+}
+
+aside img {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #e7fc03;
+}
+
+em {
+  font-size: 18px;
+}
+
+aside .centered-text {
+  text-align: center;
+}
